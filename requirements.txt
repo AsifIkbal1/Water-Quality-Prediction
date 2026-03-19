@@ -1,0 +1,40 @@
+# 🐼 ডেটা ম্যানিপুলেশনের জন্য
+pandas==2.0.3
+
+# 🔢 নিউমেরিক কম্পিউটেশন
+numpy==1.24.4
+
+# 🤖 মেশিন লার্নিং মডেল তৈরি ও মূল্যায়নের জন্য
+scikit-learn==1.3.0
+
+# 🧾 মডেল সেভ ও লোড করার জন্য (.pkl)
+joblib==1.3.2
+
+# 🌐 Diabetes Prediction Web App তৈরির জন্য
+streamlit==1.28.2
+
+# 📓 Jupyter Notebook সাপোর্টের জন্য
+notebook==7.0.6
+
+# 📊 (Optional) Visualization / EDA এর জন্য
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# 🚀 Loop / processing progress দেখানোর জন্য
+tqdm==4.66.1
+
+# ⚙️ YAML কনফিগ ফাইল লোড ও ম্যানেজ করার জন্য (future scalability)
+pyYAML==6.0.1
+
+# 📦 Config / dictionary-style data handle করার জন্য
+python-box==6.0.2
+
+# ⚠️ setuptools compatibility fix
+setuptools==65.5.1
+# কারণ:
+# নতুন setuptools ভার্সনে 'distutils._modified' module নেই
+# যেটা কিছু ML-related লাইব্রেরি এখনো internally ব্যবহার করে
+# তাই এই stable version ব্যবহার করলে compatibility issue avoid হয়
+
+# 📌 Local package install করার জন্য (যদি setup.py ব্যবহার করো)
+
